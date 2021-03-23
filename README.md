@@ -6,7 +6,7 @@ The svm.py is the Support Vector Machine (SVM) class, which should be initialize
 processed gene expression data that is in geneExpressionClassification.py, which is where all the
 preprocessing of the data occurs. The svm class is imported in geneExpressionClassification.py.
 In order to run the SVM, see the commented code below from geneExpressionClassification.py.
-The SVM uses the training and testing X (gene expression level features) and Y(labels, either -1 or 1) 
+The SVM uses the training and testing X (gene expression level features) and Y (labels, either -1 or 1) 
 from the processed data csv files. The three csv files must be in the same directory
 as the code. The initialization involves defining if the kernel is linear or gaussian as a string.
 The initialized class instance of the SVM also takes an optional argument for the sigma value
