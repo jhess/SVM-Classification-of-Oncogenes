@@ -1,8 +1,8 @@
 # Support-Vector-Machine-Classification-of-Oncogenes
-Built a Support Vector Machine (SVM) from scratch (no sklearn libraries), used it for oncogene classification based on gene expression data.
+Built a support vector machine (SVM) from scratch (no scikit-learn libraries), used it for oncogene classification based on gene expression data.
 
 The code files are svm.py and geneExpressionClassification.py.
-The svm.py is the Support Vector Machine (SVM) class, which should be initialized and run on the
+The svm.py is the SVM class, which should be initialized and run on the
 processed gene expression data that is in geneExpressionClassification.py, which is where all the
 preprocessing of the data occurs. The svm class is imported in geneExpressionClassification.py.
 In order to run the SVM, see the commented code below from geneExpressionClassification.py.
